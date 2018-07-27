@@ -55,3 +55,8 @@ printf "cmder is setting ENV NODE_NO_HTTP2=1\n"
 set NODE_NO_HTTP2=1
 printf "ENV has been set"
 ```
+## References
+- [Comment from Jarvid about how to add cmder to VScode](https://github.com/Microsoft/vscode/issues/12006#issuecomment-303048849)
+- [SharePoint Framework known issues](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/known-issues-and-common-questions)
+- [Run gulp serve with 'NODE_NO_HTTP2=1'](https://github.com/sharepoint/sp-dev-docs/issues/1002)
+- [Cmder Shell User Config](https://github.com/cmderdev/cmder/blob/master/README.md#cmder-shell-user-config)
