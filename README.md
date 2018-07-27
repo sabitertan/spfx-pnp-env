@@ -1,4 +1,4 @@
-# sp-pnp
+# spfx-pnp-env
 ## DEVELOPMENT ENVIRONMENT FOR SP-PNP
 0. NodeJS LTS
     1. Yeoman
