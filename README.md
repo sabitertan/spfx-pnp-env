@@ -1,5 +1,5 @@
 # spfx-pnp-env
-## DEVELOPMENT ENVIRONMENT FOR SPFX and PNP
+## Development Environment SPFx and PNP
 0. NodeJS LTS
     1. Yeoman
     ``` bash
