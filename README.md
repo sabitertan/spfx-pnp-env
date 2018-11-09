@@ -57,9 +57,11 @@ printf "ENV has been set"
 ```
 ### Example for partial clone from spfx repository
 Note that minimum Git v2.19 is required
+``` bash
 git clone --depth 1 --no-checkout --filter=blob:none https://github.com/SharePoint/sp-dev-fx-webparts.git
 cd sp-dev-fx-webparts
 git checkout master -- samples/react-calendar-feed
+```
 
 ## References
 - [Comment from Jarvid about how to add cmder to VScode](https://github.com/Microsoft/vscode/issues/12006#issuecomment-303048849)
