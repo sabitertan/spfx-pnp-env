@@ -55,6 +55,12 @@ printf "cmder is setting ENV NODE_NO_HTTP2=1\n"
 set NODE_NO_HTTP2=1
 printf "ENV has been set"
 ```
+### Example for partial clone from spfx repository
+Note that minimum Git v2.19 is required
+git clone --depth 1 --no-checkout --filter=blob:none https://github.com/SharePoint/sp-dev-fx-webparts.git
+cd sp-dev-fx-webparts
+git checkout master -- samples/react-calendar-feed
+
 ## References
 - [Comment from Jarvid about how to add cmder to VScode](https://github.com/Microsoft/vscode/issues/12006#issuecomment-303048849)
 - [SharePoint Framework known issues](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/known-issues-and-common-questions)
